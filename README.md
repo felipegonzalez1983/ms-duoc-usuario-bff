@@ -26,9 +26,9 @@ A continuación se detalla la distribución de tus tres repositorios activos en 
 | | `ms-duoc-productos-bs` | BS (Negocio) | **8181** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-producto-bs.git) |
 | | `ms-duoc-productos-bd` | DB (Datos) | **8182** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-producto-db.git) |
 | | `ms-duoc-productos-bff` | DB (Orquestador) | **8180** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff.git) |
-| | `ms-duoc-ventas-bd` | DB (Datos) | **8282** | [Ver Repositorio ](pendiente) |
-| | `ms-duoc-ventas-bff` | DB (Orquestador) | **8280** | [Ver Repositorio ](pendiente) |
-| | `ms-duoc-ventas-bs` | BS (Negocio) | **8281** | [Ver Repositorio ](pendiente) |
+| | `ms-duoc-ventas-bd` | DB (Datos) | **8282** | |Ver Repositorio |(pendiente) |
+| | `ms-duoc-ventas-bff` | DB (Orquestador) | **8280** | |Ver Repositorio |(pendiente) |
+| | `ms-duoc-ventas-bs` | BS (Negocio) | **8281** | |Ver Repositorio |(pendiente) |
 `
 ---
 
