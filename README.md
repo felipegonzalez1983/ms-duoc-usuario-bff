@@ -25,7 +25,8 @@ A continuación se detalla la distribución de tus tres repositorios activos en 
 | | `ms-duoc-usuario-bd` | DB (Datos) | **8082** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bd) |
 | | `ms-duoc-productos-bs` | BS (Negocio) | **8181** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-producto-bs.git) |
 | | `ms-duoc-productos-bd` | DB (Datos) | **8182** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-producto-db.git) |
-`ms-duoc-productos-bff` | BFF (Orquestador) | **8180** | [Ver Repositorio 🔗]([(https://github.com/felipegonzalez1983/ms-producto-bff.git))] |
+| | `ms-duoc-productos-bff` | DB (Orquestador) | **8180** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff.git) |
+`
 ---
 
 ## 🛠️ Stack Tecnológico Unificado
