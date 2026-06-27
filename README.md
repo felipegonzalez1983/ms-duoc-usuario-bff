@@ -74,7 +74,48 @@ Para mapear de manera correcta nuestro producto estrella, la estructura JSON uti
 
 ---
 
-## 🚀 Secuencia de Levantamiento Local
+##  Secuencia de Levantamiento Local
+
+ Patrones y Responsabilidades
+Capas de Arquitectura
+┌─────────────────────────────────────────────────────────┐
+│  Cliente (Postman / Frontend Web)                       │
+└────────────────────┬────────────────────────────────────┘
+                     │ HTTP/REST
+                     ▼
+┌─────────────────────────────────────────────────────────┐
+│ BFF (Backend For Frontend) ⚪ Puerto 8080/8180           │
+│ • Recibe peticiones HTTP                                │
+│ • Validación de contratos                               │
+│ • Orquestación básica                                   │
+│ • Enruta a BS con OpenFeign                             │
+└────────────────────┬────────────────────────────────────┘
+                     │ OpenFeign
+                     ▼
+┌─────────────────────────────────────────────────────────┐
+│ BS (Business Service) 🟣 Puerto 8081/8181               │
+│ • Lógica de negocio de dominio                          │
+│ • Validaciones de reglas complejas                      │
+│ • Transforma datos si es necesario                      │
+│ • Llama a capas DB con OpenFeign                        │
+│ • Puede invocar otras APIs (inter-módulos)              │
+└────────────────────┬────────────────────────────────────┘
+                     │ OpenFeign / JPA
+                     ▼
+┌─────────────────────────────────────────────────────────┐
+│ DB (Data Service) 🟠 Puerto 8082/8082                   │
+│ • ÚNICA capa con acceso a MySQL                         │
+│ • CRUD mediante Spring Data JPA                         │
+│ • NO implementa OpenFeign                               │
+│ • NO llama a otros microservicios                       │
+└────────────────────┬────────────────────────────────────┘
+                     │ JPA/Hibernate
+                     ▼
+┌─────────────────────────────────────────────────────────┐
+│ MySQL (Base de Datos Independiente) 🗄️                 │
+│ • Esquema aislado por módulo                            │
+│ • Cumple principio "Database per Service"               │
+└─────────────────────────────────────────────────────────┘
 
 Inicia los servicios en orden ascendente para garantizar que las dependencias de red estén listas y disponibles:
 
