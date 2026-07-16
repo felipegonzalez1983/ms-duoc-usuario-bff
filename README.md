@@ -1,4 +1,4 @@
-# 👟 Ecosistema de Microservicios: CloudStride - Calzado e Innovación Textil
+#  Ecosistema de Microservicios: CloudStride - Calzado e Innovación Textil
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.16-brightgreen?style=for-the-badge&logo=springboot)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Descripción
+##  Descripción
 
 Este proyecto implementa una arquitectura de **Microservicios** utilizando **Spring Boot**, siguiendo el patrón **BFF (Backend For Frontend) + BS (Business Service) + BD (Data Service)**.
 
@@ -27,13 +27,13 @@ La solución contempla:
 
 ---
 
-# 🏗 Arquitectura General
+#  Arquitectura General
 
 > **(Agregar aquí imagen de arquitectura)**
 
 ---
 
-# 🔄 Flujo General del Sistema
+#  Flujo General del Sistema
 
 ```text
                  API Gateway (9000)
@@ -58,36 +58,27 @@ La solución contempla:
 
 ---
 
-# 📂 Repositorios del Proyecto
+#  Repositorios del Proyecto
 
 | Módulo | Microservicio | Tipo | Puerto | GitHub |
 |:------|:--------------|:------|:------:|:-------|
-| 👤 Usuarios | ms-duoc-usuario-bff | BFF | 8080 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff) |
+|  Usuarios | ms-duoc-usuario-bff | BFF | 8080 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff) |
 | | ms-duoc-usuario-bs | BS | 8081 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bs) |
 | | ms-duoc-usuario-bd | BD | 8082 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bd) |
-| 📦 Productos | ms-duoc-productos-bff | BFF | 8180 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bff) |
+|  Productos | ms-duoc-productos-bff | BFF | 8180 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bff) |
 | | ms-duoc-productos-bs | BS | 8181 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bs) |
 | | ms-duoc-productos-bd | BD | 8182 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bd) |
-| 💰 Ventas | ms-duoc-ventas-bff | BFF | 8280 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bff) |
+|  Ventas | ms-duoc-ventas-bff | BFF | 8280 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bff) |
 | | ms-duoc-ventas-bs | BS | 8281 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bs) |
 | | ms-duoc-ventas-bd | BD | 8282 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bd) |
-| 🔐 Seguridad | ms-duoc-api-gateway | API Gateway | 9000 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-api-gateway) |
+|  Seguridad | ms-duoc-api-gateway | API Gateway | 9000 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-api-gateway) |
 
 ---
 
-# 🛠 Stack Tecnológico
+#  Stack Tecnológico
 
-| Tecnología | Descripción |
-|------------|-------------|
-| ☕ Java 17 | Lenguaje principal |
-| 🌱 Spring Boot 3.5.16 | Framework Backend |
-| ☁ Spring Cloud OpenFeign | Comunicación entre microservicios |
-| 🔐 JWT | Autenticación |
-| 📚 Swagger OpenAPI | Documentación REST |
-| 🗄 Spring Data JPA | Persistencia |
-| 🐬 MySQL | Base de datos |
-| 🧩 Lombok | Reducción de código repetitivo |
-| ✅ Spring Validation | Validación de datos |
+<img width="1804" height="1125" alt="image" src="https://github.com/user-attachments/assets/5c8f3a19-c00e-4554-b123-8f9e3b22b856" />
+
 
 ---
 
