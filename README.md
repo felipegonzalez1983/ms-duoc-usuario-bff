@@ -214,7 +214,8 @@ POST /Ventas
 
 ## Consulta de Productos
 
-> Agregar captura del GET Productos
+<img width="1120" height="697" alt="image" src="https://github.com/user-attachments/assets/449f4a52-eafe-4a53-a90f-a22393f6d7aa" />
+
 
 ---
 
