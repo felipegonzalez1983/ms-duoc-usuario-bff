@@ -130,6 +130,8 @@ Funciones principales:
 - Documentación Swagger
 - Acceso centralizado
 
+  ---
+
 # Endpoints Principales
 
 ## Autenticación
