@@ -39,6 +39,10 @@ La solución contempla:
 
 <img width="1365" height="1152" alt="image" src="https://github.com/user-attachments/assets/d50f615a-2010-4dd5-9eb6-1a7c2c8333ad" />
 
+# Estructura del proyecto
+
+<img width="1916" height="1125" alt="image" src="https://github.com/user-attachments/assets/758a1d4b-de33-4e68-b8ee-4b86d336abfe" />
+
 
 ---
 
