@@ -200,7 +200,8 @@ POST /Ventas
 
 ## Swagger
 
-> Agregar captura de Swagger
+<img width="1215" height="644" alt="image" src="https://github.com/user-attachments/assets/4c5fd2d9-7e1e-4f90-9e09-836e1a9d1448" />
+
 
 ---
 
