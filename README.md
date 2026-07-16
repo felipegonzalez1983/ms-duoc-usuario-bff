@@ -29,7 +29,7 @@ A continuación se detalla la distribución de tus tres repositorios activos en 
 | | `ms-duoc-ventas-bd` | DB (Datos) | **8282** | |Ver Repositorio |(pendiente) |
 | | `ms-duoc-ventas-bff` | DB (Orquestador) | **8280** | |Ver Repositorio |(pendiente) |
 | | `ms-duoc-ventas-bs` | BS (Negocio) | **8281** | |Ver Repositorio |(pendiente) |
-`| | `ms-duoc-gateway` | gateway| **9000** | |Ver Repositorio |(pendiente) |
+| | `ms-duoc-gateway` | gateway| **9000** | |Ver Repositorio |(pendiente) |`
 ---
 
 ## 🛠️ Stack Tecnológico Unificado
