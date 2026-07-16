@@ -37,26 +37,8 @@ La solución contempla:
 
 #  Flujo General del Sistema
 
-```text
-                 API Gateway (9000)
-                        │
-        ┌───────────────┼───────────────┐
-        │               │               │
-        ▼               ▼               ▼
- Usuarios BFF      Productos BFF     Ventas BFF
-    8080               8180             8280
-        │               │               │
-        ▼               ▼               ▼
- Usuarios BS      Productos BS     Ventas BS
-    8081               8181             8281
-        │               │               │
-        ▼               ▼               ▼
- Usuarios BD      Productos BD     Ventas BD
-    8082               8182             8282
-                │
-                ▼
-              MySQL
-```
+<img width="1365" height="1152" alt="image" src="https://github.com/user-attachments/assets/d50f615a-2010-4dd5-9eb6-1a7c2c8333ad" />
+
 
 ---
 
