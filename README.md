@@ -1,16 +1,260 @@
-## Matriz de Servicios y Puertos (Repositorios Activos)
+# 👟 Ecosistema de Microservicios: CloudStride - Calzado e Innovación Textil
 
-El ecosistema está compuesto por diez microservicios distribuidos en tres módulos (Usuarios, Productos y Ventas), además de un API Gateway que centraliza el acceso a todos los servicios.
+![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.16-brightgreen?style=for-the-badge&logo=springboot)
+![MySQL](https://img.shields.io/badge/MySQL-8-blue?style=for-the-badge&logo=mysql)
+![JWT](https://img.shields.io/badge/JWT-Autenticación-success?style=for-the-badge)
+![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-green?style=for-the-badge&logo=swagger)
+![OpenFeign](https://img.shields.io/badge/OpenFeign-SpringCloud-blueviolet?style=for-the-badge)
 
-| Módulo | Microservicio | Tipo/Capa | Puerto | Repositorio GitHub |
-| :--- | :--- | :--- | :---: | :--- |
-| **Clientes y Usuarios** | `ms-duoc-usuario-bff` | BFF (Orquestador) | **8080** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff) |
-| | `ms-duoc-usuario-bs` | BS (Negocio) | **8081** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bs) |
-| | `ms-duoc-usuario-bd` | BD (Datos) | **8082** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bd) |
-| **Productos** | `ms-duoc-productos-bff` | BFF (Orquestador) | **8180** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-productos-bff) |
-| | `ms-duoc-productos-bs` | BS (Negocio) | **8181** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-productos-bs) |
-| | `ms-duoc-productos-bd` | BD (Datos) | **8182** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-productos-bd) |
-| **Ventas** | `ms-duoc-ventas-bff` | BFF (Orquestador) | **8280** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-ventas-bff) |
-| | `ms-duoc-ventas-bs` | BS (Negocio) | **8281** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-ventas-bs) |
-| | `ms-duoc-ventas-bd` | BD (Datos) | **8282** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-ventas-bd) |
-| **Seguridad** | `ms-duoc-api-gateway` | API Gateway + JWT | **9000** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-api-gateway) |
+---
+
+## 📌 Descripción
+
+Este proyecto implementa una arquitectura de **Microservicios** utilizando **Spring Boot**, siguiendo el patrón **BFF (Backend For Frontend) + BS (Business Service) + BD (Data Service)**.
+
+El sistema fue desarrollado para administrar el negocio ficticio **CloudStride**, dedicado a la comercialización y distribución de calzado e innovación textil.
+
+La solución contempla:
+
+- Gestión de Clientes y Usuarios
+- Gestión de Productos
+- Gestión de Ventas
+- API Gateway
+- Seguridad mediante JWT
+- Comunicación entre microservicios usando OpenFeign
+- Persistencia con Spring Data JPA y MySQL
+
+---
+
+# 🏗 Arquitectura General
+
+> **(Agregar aquí imagen de arquitectura)**
+
+---
+
+# 🔄 Flujo General del Sistema
+
+```text
+                 API Gateway (9000)
+                        │
+        ┌───────────────┼───────────────┐
+        │               │               │
+        ▼               ▼               ▼
+ Usuarios BFF      Productos BFF     Ventas BFF
+    8080               8180             8280
+        │               │               │
+        ▼               ▼               ▼
+ Usuarios BS      Productos BS     Ventas BS
+    8081               8181             8281
+        │               │               │
+        ▼               ▼               ▼
+ Usuarios BD      Productos BD     Ventas BD
+    8082               8182             8282
+                │
+                ▼
+              MySQL
+```
+
+---
+
+# 📂 Repositorios del Proyecto
+
+| Módulo | Microservicio | Tipo | Puerto | GitHub |
+|:------|:--------------|:------|:------:|:-------|
+| 👤 Usuarios | ms-duoc-usuario-bff | BFF | 8080 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff) |
+| | ms-duoc-usuario-bs | BS | 8081 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bs) |
+| | ms-duoc-usuario-bd | BD | 8082 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-usuario-bd) |
+| 📦 Productos | ms-duoc-productos-bff | BFF | 8180 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bff) |
+| | ms-duoc-productos-bs | BS | 8181 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bs) |
+| | ms-duoc-productos-bd | BD | 8182 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-productos-bd) |
+| 💰 Ventas | ms-duoc-ventas-bff | BFF | 8280 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bff) |
+| | ms-duoc-ventas-bs | BS | 8281 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bs) |
+| | ms-duoc-ventas-bd | BD | 8282 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-ventas-bd) |
+| 🔐 Seguridad | ms-duoc-api-gateway | API Gateway | 9000 | [Repositorio](https://github.com/felipegonzalez1983/ms-duoc-api-gateway) |
+
+---
+
+# 🛠 Stack Tecnológico
+
+| Tecnología | Descripción |
+|------------|-------------|
+| ☕ Java 17 | Lenguaje principal |
+| 🌱 Spring Boot 3.5.16 | Framework Backend |
+| ☁ Spring Cloud OpenFeign | Comunicación entre microservicios |
+| 🔐 JWT | Autenticación |
+| 📚 Swagger OpenAPI | Documentación REST |
+| 🗄 Spring Data JPA | Persistencia |
+| 🐬 MySQL | Base de datos |
+| 🧩 Lombok | Reducción de código repetitivo |
+| ✅ Spring Validation | Validación de datos |
+
+---
+
+# 📁 Arquitectura del Proyecto
+
+```
+Cliente
+   │
+   ▼
+API Gateway
+   │
+   ▼
+BFF
+   │
+   ▼
+BS
+   │
+   ▼
+BD
+   │
+   ▼
+MySQL
+```
+
+---
+
+# 🔐 Flujo de Autenticación JWT
+
+```
+Cliente
+   │
+POST /auth/login
+   │
+   ▼
+JWT
+   │
+Bearer Token
+   │
+API Gateway
+   │
+Valida Token
+   │
+Microservicios
+```
+
+---
+
+# 🚀 Ejecución Local
+
+Levantar los servicios en el siguiente orden:
+
+1. MySQL
+
+## Usuarios
+
+- ms-duoc-usuario-bd
+- ms-duoc-usuario-bs
+- ms-duoc-usuario-bff
+
+## Productos
+
+- ms-duoc-productos-bd
+- ms-duoc-productos-bs
+- ms-duoc-productos-bff
+
+## Ventas
+
+- ms-duoc-ventas-bd
+- ms-duoc-ventas-bs
+- ms-duoc-ventas-bff
+
+## Gateway
+
+- ms-duoc-api-gateway
+
+---
+
+# 📌 Endpoints Principales
+
+## Autenticación
+
+```
+POST /auth/login
+```
+
+## Usuarios
+
+```
+GET /Usuarios
+POST /Usuarios
+```
+
+## Productos
+
+```
+GET /Productos
+POST /Productos
+```
+
+## Ventas
+
+```
+GET /Ventas
+POST /Ventas
+```
+
+---
+
+# 📸 Evidencias
+
+## Swagger
+
+> Agregar captura de Swagger
+
+---
+
+## Login JWT
+
+> Agregar captura del Login
+
+---
+
+## Consulta de Productos
+
+> Agregar captura del GET Productos
+
+---
+
+## Consulta de Ventas
+
+> Agregar captura del GET Ventas
+
+---
+
+## Creación de Venta
+
+> Agregar captura del POST Ventas (201 Created)
+
+---
+
+# ✅ Funcionalidades Implementadas
+
+- ✔ Arquitectura BFF - BS - BD
+- ✔ API Gateway
+- ✔ JWT
+- ✔ OpenFeign
+- ✔ Spring Validation
+- ✔ Swagger
+- ✔ CRUD Usuarios
+- ✔ CRUD Productos
+- ✔ CRUD Ventas
+- ✔ Persistencia MySQL
+- ✔ Comunicación entre microservicios
+- ✔ Arquitectura desacoplada
+- ✔ Principio Database per Service
+
+---
+
+# 👨‍💻 Autor
+
+**Felipe Andrés González Henríquez**
+
+Ingeniería en Informática  
+Duoc UC
+
+---
+
+# 📄 Licencia
+
+Proyecto desarrollado exclusivamente con fines académicos para la asignatura de Ingeniería de Software / Arquitectura de Microservicios de **Duoc UC**.
