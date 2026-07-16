@@ -29,7 +29,8 @@ La solución contempla:
 
 #  Arquitectura General
 
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5a2faeeb-7658-4a80-92e0-2c7a90a53d1b" />
+
 
 
 ---
