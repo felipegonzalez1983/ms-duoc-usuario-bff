@@ -74,7 +74,7 @@ La solución contempla:
 
 
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/49dcaed9-035d-4ca0-8394-2a17b757b0c4" />
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/49dcaed9-035d-4ca0-8394-2a17b757b0c4" />
 
          
 ```
