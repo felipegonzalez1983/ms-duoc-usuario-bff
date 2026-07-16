@@ -65,7 +65,7 @@ La solución contempla:
 
 #  Stack Tecnológico
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5c8f3a19-c00e-4554-b123-8f9e3b22b856" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5c8f3a19-c00e-4554-b123-8f9e3b22b856" />
 
 
 ---
@@ -74,7 +74,7 @@ La solución contempla:
 
 
 
-<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/49dcaed9-035d-4ca0-8394-2a17b757b0c4" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/49dcaed9-035d-4ca0-8394-2a17b757b0c4" />
 
          
 ```
