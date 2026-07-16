@@ -73,22 +73,9 @@ La solución contempla:
 # 📁 Arquitectura del Proyecto
 
 ```
-            Cliente
-               │
-               ▼
-          API Gateway
-               │
-               ▼
-              BFF
-               │
-               ▼
-               BS
-               │
-               ▼
-               BD
-               │
-               ▼
-            MySQL
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/4eefaef5-28db-41bd-810e-fbedff520de8" />
+
+         
 ```
 
 ---
