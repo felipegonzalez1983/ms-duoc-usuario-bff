@@ -221,7 +221,8 @@ POST /Ventas
 
 ## Consulta de Ventas
 
-> Agregar captura del GET Ventas
+<img width="1111" height="715" alt="image" src="https://github.com/user-attachments/assets/793ffcb6-0219-4674-9f2e-cdb6cf009e6c" />
+
 
 ---
 
