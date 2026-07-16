@@ -1,3 +1,25 @@
+                    API Gateway (9000)
+                           │
+      ┌────────────────────┼────────────────────┐
+      │                    │                    │
+      ▼                    ▼                    ▼
+ Usuarios BFF         Productos BFF        Ventas BFF
+    8080                 8180                8280
+      │                    │                    │
+      ▼                    ▼                    ▼
+ Usuarios BS          Productos BS         Ventas BS
+    8081                 8181                8281
+      │                    │                    │
+      ▼                    ▼                    ▼
+ Usuarios BD          Productos BD         Ventas BD
+    8082                 8182                8282
+      │                    │                    │
+      └────────────── MySQL ────────────────────┘
+
+
+
+
+
 ## ⚙️ Matriz de Servicios y Puertos (Repositorios Activos)
 
 El ecosistema está compuesto por diez microservicios distribuidos en tres módulos (Usuarios, Productos y Ventas), además de un API Gateway que centraliza el acceso a todos los servicios.
