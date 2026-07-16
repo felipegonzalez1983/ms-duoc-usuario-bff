@@ -228,7 +228,8 @@ POST /Ventas
 
 ## Creación de Venta
 
-> Agregar captura del POST Ventas (201 Created)
+<img width="1135" height="714" alt="image" src="https://github.com/user-attachments/assets/6a74610b-3860-479d-ae02-4543ec0b11a3" />
+
 
 ---
 
