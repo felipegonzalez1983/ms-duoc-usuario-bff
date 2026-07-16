@@ -29,7 +29,8 @@ La solución contempla:
 
 #  Arquitectura General
 
-> **(Agregar aquí imagen de arquitectura)**
+![Uploading image.png…]()
+
 
 ---
 
