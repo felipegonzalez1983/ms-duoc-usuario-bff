@@ -1,4 +1,4 @@
-## ⚙️ Matriz de Servicios y Puertos (Repositorios Activos)
+## Matriz de Servicios y Puertos (Repositorios Activos)
 
 El ecosistema está compuesto por diez microservicios distribuidos en tres módulos (Usuarios, Productos y Ventas), además de un API Gateway que centraliza el acceso a todos los servicios.
 
