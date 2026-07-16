@@ -21,7 +21,7 @@ A continuación se detalla la distribución de tus tres repositorios activos en 
 | Módulo | Microservicio | Tipo/Capa | Puerto | Repositorio GitHub |
 | :--- | :--- | :--- | :--- | :--- |
 | **Clientes y Usuarios** <br>*(Perfiles, preferencias de calzado y direcciones)* | `ms-duoc-usuario-bff` | BFF (Orquestador) | **8080** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bff) |
-| | `ms-duoc-usuario-bs` | BS (Negocio) | **8081** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bs) |
+|| **Clientes y Usuarios** <br>*(Perfiles, preferencias de calzado y direcciones)* |  | `ms-duoc-usuario-bs` | BS (Negocio) | **8081** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bs) |
 | | `ms-duoc-usuario-bd` | DB (Datos) | **8082** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-duoc-usuario-bd) |
 | | `ms-duoc-productos-bs` | BS (Negocio) | **8181** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-producto-bs.git) |
 | | `ms-duoc-productos-bd` | DB (Datos) | **8182** | [Ver Repositorio 🔗](https://github.com/felipegonzalez1983/ms-producto-db.git) |
