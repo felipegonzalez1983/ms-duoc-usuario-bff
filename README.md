@@ -70,39 +70,25 @@ La solución contempla:
 
 ---
 
-# 📁 Arquitectura del Proyecto
+# Arquitectura del Proyecto
 
 
 
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/49dcaed9-035d-4ca0-8394-2a17b757b0c4" />
 
          
-```
+
 
 ---
 
-# 🔐 Flujo de Autenticación JWT
+# Flujo de Autenticación JWT
 
-```
-Cliente
-   │
-POST /auth/login
-   │
-   ▼
-JWT
-   │
-Bearer Token
-   │
-API Gateway
-   │
-Valida Token
-   │
-Microservicios
-```
+<img width="1661" height="947" alt="image" src="https://github.com/user-attachments/assets/1c17ca10-b5c8-4f3c-841a-7d3a78944f44" />
+
 
 ---
 
-# 🚀 Ejecución Local
+# Ejecución Local
 
 Levantar los servicios en el siguiente orden:
 
@@ -132,7 +118,7 @@ Levantar los servicios en el siguiente orden:
 
 ---
 
-# 📌 Endpoints Principales
+# Endpoints Principales
 
 ## Autenticación
 
@@ -200,7 +186,7 @@ POST /Ventas
 
 ---
 
-# ✅ Funcionalidades Implementadas
+# Funcionalidades Implementadas
 
 - ✔ Arquitectura BFF - BS - BD
 - ✔ API Gateway
@@ -218,7 +204,7 @@ POST /Ventas
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 **Felipe Andrés González Henríquez**
 
