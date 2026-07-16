@@ -118,6 +118,18 @@ Levantar los servicios en el siguiente orden:
 
 ---
 
+# API Gateway
+
+El API Gateway actúa como punto único de entrada para todas las solicitudes del sistema.
+
+Funciones principales:
+
+- Validación JWT
+- Enrutamiento
+- Seguridad
+- Documentación Swagger
+- Acceso centralizado
+
 # Endpoints Principales
 
 ## Autenticación
