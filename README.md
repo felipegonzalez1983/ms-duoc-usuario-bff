@@ -207,7 +207,8 @@ POST /Ventas
 
 ## Login JWT
 
-> Agregar captura del Login
+<img width="1193" height="596" alt="image" src="https://github.com/user-attachments/assets/e4b68054-0056-4f18-8ebb-52d43e8f9576" />
+
 
 ---
 
