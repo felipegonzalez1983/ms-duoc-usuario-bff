@@ -73,22 +73,22 @@ La solución contempla:
 # 📁 Arquitectura del Proyecto
 
 ```
-Cliente
-   │
-   ▼
-API Gateway
-   │
-   ▼
-BFF
-   │
-   ▼
-BS
-   │
-   ▼
-BD
-   │
-   ▼
-MySQL
+            Cliente
+               │
+               ▼
+          API Gateway
+               │
+               ▼
+              BFF
+               │
+               ▼
+               BS
+               │
+               ▼
+               BD
+               │
+               ▼
+            MySQL
 ```
 
 ---
