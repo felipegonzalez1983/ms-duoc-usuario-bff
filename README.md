@@ -1,6 +1,6 @@
 #  Ecosistema de Microservicios: CloudStride - Calzado e Innovación Textil
 
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/9df3d204-1237-41f0-8426-6861463d2336" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/9df3d204-1237-41f0-8426-6861463d2336" />
 
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
