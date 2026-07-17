@@ -24,7 +24,17 @@ La solución contempla:
 - Seguridad mediante JWT
 - Comunicación entre microservicios usando OpenFeign
 - Persistencia con Spring Data JPA y MySQL
+---
+  
+# PRESENTACIÓN DE LA EMPRESA
 
+CloudStride es una empresa dedicada al desarrollo y comercialización de calzado innovador.
+
+A medida que la empresa fue creciendo, surgió la necesidad de contar con un sistema más organizado y fácil de mantener.
+
+En lugar de desarrollar una aplicación monolítica, se optó por una arquitectura de microservicios.
+
+Esto permitió separar las funcionalidades en módulos independientes, facilitando el mantenimiento, la escalabilidad y la evolución del sistema.
 ---
 
 #  Arquitectura General
