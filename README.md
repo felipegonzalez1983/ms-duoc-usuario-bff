@@ -10,6 +10,14 @@
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-green?style=for-the-badge&logo=swagger)
 ![OpenFeign](https://img.shields.io/badge/OpenFeign-SpringCloud-blueviolet?style=for-the-badge)
 
+
+CloudStride es una empresa dedicada al desarrollo y comercialización de calzado innovador.
+
+A medida que la empresa fue creciendo, surgió la necesidad de contar con un sistema más organizado y fácil de mantener.
+
+En lugar de desarrollar una aplicación monolítica, se optó por una arquitectura de microservicios.
+
+Esto permitió separar las funcionalidades en módulos independientes, facilitando el mantenimiento, la escalabilidad y la evolucion del sistema
 ---
 
 ##  Descripción
@@ -27,19 +35,7 @@ La solución contempla:
 - Seguridad mediante JWT
 - Comunicación entre microservicios usando OpenFeign
 - Persistencia con Spring Data JPA y MySQL
----
-  
-# PRESENTACIÓN DE LA EMPRESA
-
-CloudStride es una empresa dedicada al desarrollo y comercialización de calzado innovador.
-
-A medida que la empresa fue creciendo, surgió la necesidad de contar con un sistema más organizado y fácil de mantener.
-
-En lugar de desarrollar una aplicación monolítica, se optó por una arquitectura de microservicios.
-
-Esto permitió separar las funcionalidades en módulos independientes, facilitando el mantenimiento, la escalabilidad y la evolucion del sistema
----
-
+--- 
 #  Arquitectura General
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5a2faeeb-7658-4a80-92e0-2c7a90a53d1b" />
