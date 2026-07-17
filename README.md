@@ -34,7 +34,7 @@ A medida que la empresa fue creciendo, surgió la necesidad de contar con un sis
 
 En lugar de desarrollar una aplicación monolítica, se optó por una arquitectura de microservicios.
 
-Esto permitió separar las funcionalidades en módulos independientes, facilitando el mantenimiento, la escalabilidad y la evolución del sistema.
+**Esto permitió separar las funcionalidades en módulos independientes, facilitando el mantenimiento, la escalabilidad y la evolución del sistema.**
 ---
 
 #  Arquitectura General
