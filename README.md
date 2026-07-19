@@ -19,6 +19,12 @@ En lugar de desarrollar una aplicación monolítica, se optó por una arquitectu
 
 Esto permitió separar las funcionalidades en módulos independientes, facilitando el mantenimiento, la escalabilidad y la evolucion del sistema
 ---
+## Video demostrativo del proyecto
+
+Haz clic en la imagen para ver el video completo:
+
+[![Ver video demostrativo](https://img.youtube.com/vi/WWrNqkIgMhM/maxresdefault.jpg)](https://www.youtube.com/watch?v=WWrNqkIgMhM)
+---
 
 ##  Descripción
 
